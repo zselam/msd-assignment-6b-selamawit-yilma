@@ -1,0 +1,20 @@
+1. git checkout -b branch name
+
+2. Its not a good idea to work on a single branch for may reasons like 
+    * first we should not mess with master branch, since this the main branch where everything get merged eventually we should not directly affect
+      this. Mater is like a production branch. 
+    * we can not do pull request since comparing same branch is not possible
+    * if we add uncompleted work and push it to this branch, other will have broken state to work on
+    * we have to continuously communicate with the other developer before changing files ,which is time killing  
+    * it could lead to merge conflict and so on...
+
+3. config : configuration options, like email, username
+   description : this file gives description about the repository
+   HEAD: considered as a pointer to the tip of the branch you’re working on
+
+4. git pull origin master
+   git checkout -b fixes
+   git add .
+   git commit -m 'merge-updates-to-master'
+   git push origin fixes
+   -- then create pull request from fixes to base master
