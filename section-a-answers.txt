@@ -1,0 +1,9 @@
+1. a) git add filename
+   b) it will throw this error, 'fatal: not a git repository (or any of the parent directories): .git'
+
+2. git commit -m "Added source code files"
+
+3. git is a control system used for tracking changes and updates in our source code. Git also stores old version so that we can revert back to any version when ever we want. Git is very useful it make working in collaborations easier and allows changes made by different users to be merged into one source(master). we can easily access changes made by other by pulling their branches and also resetting back to some commit point if we messed up.
+
+
+4. Since we did tell git to track this new folder it is not a repository. Repository is a like a project folder which is tracked by git for any changes happening inside.
