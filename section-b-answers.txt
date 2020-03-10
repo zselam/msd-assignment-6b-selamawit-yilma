@@ -12,7 +12,8 @@
    description : this file gives description about the repository
    HEAD: considered as a pointer to the tip of the branch you’re working on
 
-4. git pull origin master
+4. git remote add origin  https://github.com/zselam/msd-assignment-6b-selamawit-yilma.git
+   git pull origin master
    git checkout -b fixes
    git add .
    git commit -m 'merge-updates-to-master'
