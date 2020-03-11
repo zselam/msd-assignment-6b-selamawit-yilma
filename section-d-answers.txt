@@ -1,16 +1,16 @@
 1.a) I would suggest to use JSON.
 
-  b) XML is more secure but we for the following reasons listed below and more it would be agood i dea for them to swich to JSON
-     * xml is likely for providing a rigid data structure
-     * it has a lot of syntatic worthless to receive something usefull 
-     * parsing and validating an XML file can take a large amount of memory and cross-browser parsing is difficult
-     * addition of tags and a variety of attributes will lend to extra weight which could affect the performance of the app
+  b) XML is more secure but we for the following reasons listed below and more it would be a good idea for them to switch to JSON
+     * XML is likely for providing a rigid data structure
+     * XML has a lot of syntactic worthless to receive something useful 
+     * Parsing and validating an XML file can take a large amount of memory and cross-browser parsing is difficult
+     * Addition of tags and a variety of attributes will lend to extra weight which could affect the performance of the app
 
-  c) Here are few reasons why i suggeest JSON over XML
-     * JSON has a much lighter structure can be used to easily exchange JS object between systems. Since JS is designed to read that data 
-       and deserialize it into objects it ll make thr data to be available to the rest of the code in the system. 
-     * its parsed into a ready-to-use JavaScript objec and consumes very less memory space
-     * its supported by most browsers and by many Ajax toolkit 
+  c) Here are few reasons why i suggest JSON over XML
+     * JSON has a much lighter structure can be used to easily exchange JS object between systems. Since JS is designed to read such data 
+       and deserialize it into objects it ll make the data to be available to the rest of the code in the system. 
+     * JSON parsed into a ready-to-use JavaScript object and consumes very less memory space
+     * JSON supported by most browsers and by many Ajax toolkit 
      * JSON library does not require any other library for processing.
 
-2.
+2. The api can return a single message ' Invalid username or password', which works for all the three cases.
