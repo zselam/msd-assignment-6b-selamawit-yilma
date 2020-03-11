@@ -1,0 +1,21 @@
+1.a)  git pull  remotename branchnames
+   b)  git fetch remotename
+
+2.  git checkout branch1
+     git touch file.txt
+     git commit -am 'aded file'
+     git checkout branch2
+
+  a) recursive merge   
+      git merge --no-ff branch1 
+  b) fast forward merge
+      git rebase branch1
+
+3. recursive merge -- git merge --no-ff  branchname
+
+4. If both branches made changes on the same lines in one file or if one branch deletes a file while the other is still using it, 
+   these situations will lead to merge conflict. To resolve the conflict open up the file that has merge conflict and go to the conflict marker
+   <<<<<<< and decide which changes to keep or to discard all and then delete the markers and add and commit the changes we have made. 
+
+5. a) git push gitlab develop master 
+    b) git push gitlab --all
